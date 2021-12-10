@@ -1,0 +1,183 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+#img {
+  width: 100%;
+}
+
+.graph {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  z-index: -1;
+}
+
+.first {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.second {
+  position: static;
+  margin-top: 40%;
+}
+
+.fourth {
+  position: relative;
+}
+
+.scene {
+  height: 100%;
+  width: 100%;
+}
+
+.viewer {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(../visuals/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+.viewer.frame1 {
+  background-position: -40px 50%;
+}
+
+.viewer.frame2 {
+  background-position: -80px 50%;
+}
+
+.viewer.frame3 {
+  background-position: -120px 50%;
+}
+
+.viewer.frame4 {
+  background-position: -160px 50%;
+}
+
+.viewer.frame5 {
+  background-position: -200px 50%;
+}
+
+.viewer.frame6 {
+  background-position: -240px 50%;
+}
+
+.viewer.frame7 {
+  background-position: -280px 50%;
+}
+
+.viewer.frame8 {
+  background-position: -320px 50%;
+}
+
+.viewer.frame9 {
+  background-position: -360px 50%;
+}
+
+.viewer.frame10 {
+  background-position: -400px 50%;
+}
+
+.viewer.frame11 {
+  background-position: -440px 50%;
+}
+
+.viewer.frame12 {
+  background-position: -480px 50%;
+}
+
+.viewer.frame13 {
+  background-position: -520px 50%;
+}
+
+.viewer.frame14 {
+  background-position: -560px 50%;
+}
+
+.viewer.frame15 {
+  background-position: -600px 50%;
+}
+
+.viewer.frame16 {
+  background-position: -640px 50%;
+}
+
+.viewer.frame17 {
+  background-position: -680px 50%;
+}
+
+.viewer.frame18 {
+  background-position: -720px 50%;
+}
+
+.viewer.frame19 {
+  background-position: -760px 50%;
+}
+
+.viewer.frame20 {
+  background-position: -800px 50%;
+}
+
+.viewer.frame21 {
+  background-position: -840px 50%;
+}
+
+.viewer.frame22 {
+  background-position: -880px 50%;
+}
+
+.viewer.frame23 {
+  background-position: -920px 50%;
+}
+
+.viewer.frame24 {
+  background-position: -960px 50%;
+}
+
+.viewer.frame25 {
+  background-position: -1000px 50%;
+}
+
+.viewer.frame26 {
+  background-position: -1040px 50%;
+}
+
+.viewer.frame27 {
+  background-position: -1080px 50%;
+}
+
+.viewer.frame28 {
+  background-position: -1120px 50%;
+}
+
+.viewer.frame29 {
+  background-position: -1160px 50%;
+}
+
+.viewer.frame30 {
+  background-position: -1200px 50%;
+}
+
+@-webkit-keyframes drink-coffee {
+  to {
+    background-position: -1800px 50%;
+  }
+}
+
+@keyframes drink-coffee {
+  to {
+    background-position: -1800px 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

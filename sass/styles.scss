@@ -1,0 +1,71 @@
+
+html,
+body {
+  height:100%;
+} 
+
+body {
+  width:100%;
+}
+
+#img {
+    width: 100%;
+}
+
+.graph {
+    position: relative;
+    top: 5%;
+    left: 50%;
+    z-index: -1;
+}
+.first {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.second{
+    position: static;
+    margin-top: 40%;
+}
+.fourth{
+    position: relative;
+    
+}
+.scene {
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+// REQUIRED STYLES
+// ==========================================================
+
+$frame-count: 30;
+$offset-val: 20;
+
+.viewer {
+  // CSS ONLY EXAMPLE
+  // animation: drink-coffee 1s steps($frame-count) infinite;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  width: 100%;
+  background-image: url(../visuals/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+
+@for $i from 1 through $frame-count {
+  .viewer.frame#{$i} {
+    background-position: -(($i * $offset-val) * 2) + px 50%;
+  }
+}
+
+// CSS ONLY EXAMPLE
+@keyframes drink-coffee {
+  to {
+    background-position: -1800px 50%;
+  }
+}
